@@ -7,6 +7,7 @@
   </Folder>
   <Folder Name="/src/Shared/">
     <Project Path="src/Shared/MyRecipeBook.Communication/MyRecipeBook.Communication.csproj" Id="5d2fa443-5937-453d-8043-90405b4188f9" />
+    <Project Path="src/Shared/MyRecipeBook.Exception/MyRecipeBook.Exception.csproj" Id="d9b4dace-99ab-4883-8e97-fbf700471872" />
   </Folder>
   <Folder Name="/tests/" />
 </Solution>
