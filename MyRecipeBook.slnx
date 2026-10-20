@@ -5,5 +5,8 @@
     <Project Path="src/Backend/MyRecipeBook.Infrastructure/MyRecipeBook.Infrastructure.csproj" Id="3b8970a8-425f-42a8-87d7-7bf9c5d90df1" />
     <Project Path="src/Backend/MyRecipeBook.Api/MyRecipeBook.Api.csproj" />
   </Folder>
+  <Folder Name="/src/Shared/">
+    <Project Path="src/Shared/MyRecipeBook.Communication/MyRecipeBook.Communication.csproj" Id="5d2fa443-5937-453d-8043-90405b4188f9" />
+  </Folder>
   <Folder Name="/tests/" />
 </Solution>
