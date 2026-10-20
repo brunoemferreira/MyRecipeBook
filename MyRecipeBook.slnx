@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/src/" />
   <Folder Name="/src/Backend/">
+    <Project Path="src/Backend/MyRecipeBook.Domain/MyRecipeBook.Domain.csproj" Id="23ae412d-2824-4471-ae2f-e1bfd9dcf9d4" />
     <Project Path="src/Backend/MyRecipeBook.Api/MyRecipeBook.Api.csproj" />
   </Folder>
   <Folder Name="/tests/" />
