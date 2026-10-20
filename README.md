@@ -136,12 +136,14 @@ MyRecipeBook/
 │       ├── tools.svg
 │       └── user.svg
 ├── src/
-│   ├── MyRecipeBook.Api/              # Camada de apresentação e controladores
-│   ├── MyRecipeBook.Application/      # Casos de uso e lógica de negócio
-│   ├── MyRecipeBook.Communication/    # DTOs, Requests e Responses
-│   ├── MyRecipeBook.Domain/           # Entidades e interfaces
-│   ├── MyRecipeBook.Exception/        # Tratamento centralizado de erros
-│   └── MyRecipeBook.Infrastructure/   # Persistência e serviços externos
+│   ├── Backend/
+│   │   ├── MyRecipeBook.Api/              # Camada de apresentação e controladores
+│   │   ├── MyRecipeBook.Application/      # Casos de uso e lógica de negócio
+│   │   ├── MyRecipeBook.Domain/           # Entidades e interfaces
+│   │   └── MyRecipeBook.Infrastructure/   # Persistência e serviços externos
+│   └── Shared/
+│       ├── MyRecipeBook.Communication/    # DTOs, Requests e Responses
+│       └── MyRecipeBook.Exception/        # Tratamento centralizado de erros
 ├── tests/                             # Testes unitários e de integração
 ├── MyRecipeBook.slnx                  # Arquivo da solução .NET
 ├── LICENSE.txt                        # Licença MIT
@@ -178,7 +180,7 @@ MyRecipeBook/
 
 4. **Executar a API:**
    ```bash
-   dotnet run --project src/MyRecipeBook.Api
+   dotnet run --project src/Backend/MyRecipeBook.Api
    ```
 
 5. **Acessar a documentação Swagger:**
