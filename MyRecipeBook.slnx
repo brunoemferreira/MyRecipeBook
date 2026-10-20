@@ -2,6 +2,7 @@
   <Folder Name="/src/" />
   <Folder Name="/src/Backend/">
     <Project Path="src/Backend/MyRecipeBook.Domain/MyRecipeBook.Domain.csproj" Id="23ae412d-2824-4471-ae2f-e1bfd9dcf9d4" />
+    <Project Path="src/Backend/MyRecipeBook.Infrastructure/MyRecipeBook.Infrastructure.csproj" Id="3b8970a8-425f-42a8-87d7-7bf9c5d90df1" />
     <Project Path="src/Backend/MyRecipeBook.Api/MyRecipeBook.Api.csproj" />
   </Folder>
   <Folder Name="/tests/" />
